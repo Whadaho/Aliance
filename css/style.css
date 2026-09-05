@@ -4,21 +4,55 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "bebas Neue Book";
+  src: url("../fonts/BebasNeueBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
 
+
+.header {
+  min-height: 100vh;
+}
+.header-image {
+  background: url('../img/header-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.header-image::before {
+  background: rgba(41, 45, 51, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
 .navbar{
-  background-color: #585858;
   display: flex;
   align-items: center;
   color: white;
   height: 94px;
   flex: 1;
+  position: relative;
+  border-bottom: 1px solid rgba(235, 235, 240, 0.2);
 }
 .header-logo {
   padding: 25px 50px;
-
+  border-right: 1px solid rgba(235, 235, 240, 0.2);
+  height: 100%;
 }
 .header-nav {
   display: flex;
@@ -61,8 +95,62 @@ body {
   padding: 25px 60px;
   border: 0;
   flex-shrink: 0;
+  cursor: pointer;
 }
 .header-button {
   height: 100%;
   padding: auto 50px;
+}
+
+.seporator {
+  background-color: #5C8EE5;
+  width: 150px;
+  height: 2px;
+
+}
+.header-content {
+  padding-top: 150px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.header-title {
+  max-width: 1080px;
+  font-family: "bebas Neue Book";
+  font-size: 80px;
+  line-height: 120%;
+  margin: 30px 0;
+}
+.header-text {
+  max-width: 720px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+.header-features {
+  position: relative;
+  display: flex;
+  min-height: 168px;
+  padding: 0;
+  margin-top: 100px;
+  list-style: none;
+  color: #ffffff;
+  
+}
+.header-features-item {
+  padding: 30px 50px;
+  border: 1px solid  rgba(235, 235, 240, 0.2);
+
+}
+.header-features-text {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+}
+.header-features-item:not(:last-child) {
+  border-right: 0;
 }
