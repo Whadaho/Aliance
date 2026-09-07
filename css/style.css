@@ -53,15 +53,20 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s ease;
+  background-clip: padding-box;
+
 }
 .navbar-light {
   background: #fff;
   color: #292D33;
+  border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  background-clip: padding-box;
 }
 .navbar-light .header-logo-path {
   fill: #292D33;
 }
+
 .header-logo {
   padding: 25px 50px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
@@ -113,6 +118,7 @@ body {
 .header-button {
   height: 100%;
   padding: auto 50px;
+  
 }
 
 .seporator {
