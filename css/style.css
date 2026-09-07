@@ -118,7 +118,9 @@ body {
 }
 .header-button {
   height: 100%;
-  padding: auto 50px;
+  width: 24%;
+  padding: auto 70px;
+  flex-shrink: 1;
   
 }
 
