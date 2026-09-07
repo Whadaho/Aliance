@@ -154,3 +154,65 @@ body {
 .header-features-item:not(:last-child) {
   border-right: 0;
 }
+
+.section {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.section-title {
+  font-family: "bebas Neue Book";
+  color: #292D33;
+  font-size: 60px;
+  line-height: 120%;
+  margin-top: 30px;
+  flex: 1;
+}
+.steps {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 50px;
+  padding: 0;
+}
+.steps-item {
+  min-width: 330px;
+}
+.steps-num {
+  font-family: "bebas Neue Book";
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 1000;
+  color: #5C8EE5;
+}
+.steps-title {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #292D33;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.steps-text {
+  color: #828A99;
+  line-height: 160%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.steps-link {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  list-style: none;
+  color: #5C8EE5;
+  text-decoration: none;
+  line-height: 160%;
+  font-size: 16px;
+  font-weight: 600;
+}
+.steps-link:before {
+  content: ' ';
+  height: 1px;
+  width: 40px;
+  background: #5C8EE5;
+  margin-right: 20px;
+}
