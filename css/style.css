@@ -53,7 +53,7 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.3s ease;
   background-clip: padding-box;
 
 }
@@ -62,6 +62,7 @@ body {
   color: #292D33;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   background-clip: padding-box;
+
 }
 .navbar-light .header-logo-path {
   fill: #292D33;
