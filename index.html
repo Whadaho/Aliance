@@ -11,29 +11,68 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="mobile-menu">
+    <ul class="mobile-menu-nav">
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">О компании</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">Контрактное производство</a>
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu-item"><a href="#">Автомобильная химия</li></a>
+          <li class="mobile-submenu-item"><a href="#">Бытовая химия</li></a>
+          <li class="mobile-submenu-item"><a href="#">Дезинфицирующие средства</li></a>
+          <li class="mobile-submenu-item"><a href="#">Пищевые аэрозоли</li></a>
+          <li class="mobile-submenu-item"><a href="#">Косметическая продукция</li></a>
+          <li class="mobile-submenu-item"><a href="#">Краски аэрозольные</li></a>
+        </ul>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">Собственные торговые марки</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">Новости</a>
+      </li>
+      <li class="mobile-nav-item">
+        <a href="#" class="mobile-nav-link">Контакты</a>
+      </li>
+    </ul>
+  </div>
   <nav class="navbar">
-      <a href="./" class="header-logo">
-        <svg class="logo-svg">
-           <use href="img/sprites.svg#logo-light"></use> 
-        </svg>
-      </a>
-      <ul class="header-nav">
-        <li class="header-nav-item"><a href="#" class="header-nav-link">О компании</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Контрактное производство</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Собственные торговые марки</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Новости</a></li>
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
-      </ul>
+    <a href="" class="mobile-menu-toggle">
+      <span class="mobile-menu-line"></span>
+      <span class="mobile-menu-line"></span>
+      <span class="mobile-menu-line"></span>
+    </a>
+    <a href="./" class="header-logo">
+      <svg class="logo-svg">
+          <use href="img/sprites.svg#logo-light"></use> 
+      </svg>
+    </a>
+    <ul class="header-nav">
+      <li class="header-nav-item"><a href="#" class="header-nav-link">О компании</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Контрактное производство</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Собственные торговые марки</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Новости</a></li>
+      <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
+    </ul>
 
-      <div class="header-phone">
-        <svg width="24" height="24">
-           <use href="img/sprites.svg#phone"></use> 
-        </svg>
-        <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
-      </div>
+    <div class="header-phone">
+      <svg width="24" height="24" class="phone-icon">
+          <use href="img/sprites.svg#phone"></use> 
+      </svg>
+      <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
+    </div>
 
-      <button class=" button header-button ">Получить консультацию</button>
-    </nav>
+    <button class=" button header-button ">
+      <svg width="24" height="24" class="button-icon">
+          <use href="img/sprites.svg#phone"></use> 
+      </svg>
+      <span class="button-text">
+        Получить консультацию
+    </span>
+  </button>
+  </nav>
   <header class="header header-image">
     
     <div class="container">
