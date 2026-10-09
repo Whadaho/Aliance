@@ -119,9 +119,10 @@ body {
   font-size: 16px;
   color: inherit;
 }
-.phone-icon {
+.phone-icon  {
   fill: #5C8EE6;
 }
+
 .button {
   display: flex;
   align-items: center;
@@ -395,6 +396,9 @@ body {
     margin-top: 2.5625rem;
     
   }
+  .mobile-submenu-item {
+    margin-bottom: .6250rem;
+  }
   .mobile-submenu-link {
     text-decoration: none;
     font-weight: 400;
@@ -427,4 +431,10 @@ body {
     color: #292D33;
     text-decoration: none;
   }
+  .mobile-soc {
+    display: flex;
+    gap: 2rem;
+    margin-top: .9375rem;
+  }
+
 }
