@@ -162,6 +162,7 @@ body {
   position: relative;
   z-index: 1;
   color: #fff;
+  
 }
 .header-title {
   max-width: 67.5rem;
@@ -340,7 +341,7 @@ body {
     background-color: #fff;
     width: 60%;
     margin-left: 6px;
-    
+    transition: transform 0.3s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 50%;
@@ -436,5 +437,14 @@ body {
     gap: 2rem;
     margin-top: .9375rem;
   }
+  .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(6.5px) translateX(4.5px);
 
+  }
+  .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-6px) translateX(4px);
+  }
 }
