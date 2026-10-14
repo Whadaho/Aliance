@@ -433,3 +433,14 @@ body {
     transform: rotate(-45deg) translateY(-6px) translateX(4px);
   }
 }
+@media (max-width: 768px) {
+  .container {
+    max-width: 40rem;
+  }
+  .header-title {
+    font-size: 4rem;
+  }
+  .header-content {
+    padding-top: 3rem;
+  }
+}
